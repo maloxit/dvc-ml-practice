@@ -1,15 +1,5 @@
 schema: '2.0'
 stages:
-  stage_getting_pretrained_model:
-    cmd: python src/get_pretrained_model.py
-    deps:
-    - path: src/get_pretrained_model.py
-      md5: abbfdcce42de9f9cc40f3461418bbf0a
-      size: 370
-    outs:
-    - path: data/model.h5
-      md5: 605af8689911151540194198d437c925
-      size: 574762048
   stage_evaluate:
     cmd: python src/evaluate.py
     deps:

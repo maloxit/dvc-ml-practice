@@ -1,10 +1,4 @@
 stages:
-  stage_getting_pretrained_model:
-    cmd: python src/get_pretrained_model.py
-    deps:
-    - src/get_pretrained_model.py
-    outs:
-    - data/model.h5
   stage_evaluate:
     cmd: python src/evaluate.py
     deps:
