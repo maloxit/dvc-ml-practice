@@ -1,2 +1,4 @@
+[core]
+    remote = gdriveremote
 ['remote "gdriveremote"']
     url = gdrive://1AaOjed6M2wlOuGjCknwJD1l3r19U-gPf/dvc-ml-practice
