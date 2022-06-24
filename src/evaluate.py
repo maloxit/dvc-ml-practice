@@ -19,5 +19,5 @@ if __name__ == '__main__':
             'accuracy': result[1],
             'top_5_accuracy': result[2]
         },
-        fp=open('data/eval.txt', 'w')
+        fp=open('data/eval.json', 'w')
     )
