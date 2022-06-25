@@ -50,7 +50,7 @@ def preprocess_image(image):
 
 def load_test_dataset(data_dir, batch_size):
     dataset = tfds.load(name="imagenet_v2",
-                            split='test[:5%]',
+                            split='test[:10%]',
                             as_supervised=True,
                             download=False, 
                             data_dir=data_dir)
