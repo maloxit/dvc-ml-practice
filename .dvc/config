@@ -1,4 +1,7 @@
 [core]
-    remote = gdriveremote
+    remote = yandex-test-remote
 ['remote "gdriveremote"']
     url = gdrive://1AaOjed6M2wlOuGjCknwJD1l3r19U-gPf/dvc-ml-practice
+['remote "yandex-test-remote"']
+    url = s3://test-dvc-remote-bucket
+    endpointurl = https://storage.yandexcloud.net
